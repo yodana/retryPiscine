@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yodana <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/11/07 15:03:40 by yodana            #+#    #+#             */
+/*   Updated: 2018/11/07 15:04:15 by yodana           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 #include <fcntl.h>
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	char *buf;
-	int fd;
+	char	*buf;
+	int		fd;
 
 	buf = 0;
 	if (argc == 1)
@@ -22,4 +34,3 @@ int main(int argc, char **argv)
 	}
 	return (0);
 }
-

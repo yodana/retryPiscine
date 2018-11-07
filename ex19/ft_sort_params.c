@@ -1,4 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_sort_params.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yodana <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/11/07 14:07:16 by yodana            #+#    #+#             */
+/*   Updated: 2018/11/07 14:16:26 by yodana           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 void	ft_putchar(char c);
+
 void	ft_putstr(char *str)
 {
 	int i;
@@ -21,9 +34,10 @@ int		ft_compare(char *s1, char *s2)
 	return (s1[i] - s2[i]);
 }
 
-void ft_puts(char **argv)
+void	ft_puts(char **argv)
 {
 	int i;
+
 	i = 1;
 	while (argv[i])
 	{
@@ -31,7 +45,7 @@ void ft_puts(char **argv)
 		i++;
 		ft_putchar(' ');
 	}
-	ft_putchar('\n');	
+	ft_putchar('\n');
 }
 
 int	main(int argc, char **argv)
@@ -55,6 +69,6 @@ int	main(int argc, char **argv)
 		else
 			i++;
 	}
-	ft_puts(argv);	
+	ft_puts(argv);
 	return (0);
 }
