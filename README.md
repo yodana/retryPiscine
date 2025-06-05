@@ -1,3 +1,3 @@
 # retryPiscine
 
-Exercice basiques de la rentree de 42
+Exercices basiques de la rentree de 42
